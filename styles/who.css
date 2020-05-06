@@ -31,10 +31,123 @@ html {
 
 .box .back {
     font-size: 70px;
-    transform: rotate(270deg);
     color: black;
     position: absolute;
     top: 75px;
     text-align: center;
     
+}
+
+.bio_box {
+    position: relative;
+    float: left;
+    margin-left: 200px;
+    margin-top: 190px;
+    background: none;
+    width: 40vw;
+    height: 450px;
+}
+
+.bio_box .name {
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+}
+
+.bio_box .school {
+    font-size: 35px;
+    position: absolute;
+    top: 80px;
+    left: 18px;
+}
+
+.bio_box .major {
+    font-size: 27px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.bio_box .bio {
+    font-size: 25px;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+@media (max-width: 800px) {
+
+    .background {
+        position: absolute;
+        float: none;
+        width: 10vw;
+        }
+    
+    /* .box {
+        position: relative;
+        margin-bottom: 10px;
+        background: blue;
+        width: 8vw;
+        height: 20px;
+    } 
+    
+    .box .back {
+        font-size: 40px;
+        color: black;
+        position: absolute;
+        bottom: 5px;
+        text-align: center;
+        
+    } */
+
+    /* .box {
+        position: absolute;
+        background: blue;
+        bottom: 200px;
+        left: 50px;
+        height: 5vh;
+    } 
+
+    .box .back {
+        font-size: 40px;
+        position: absolute;
+        text-align: center;
+    }  */
+    
+    .bio_box {
+        position: relative;
+        float: left;
+        margin-left: 0px;
+        margin-top: 150px;
+        background: none;
+        width: 90vw;
+        height: 400px;
+    }
+    
+    .bio_box .name {
+        font-size: 25px;
+        position: absolute;
+        left: 20px;
+    }
+    
+    .bio_box .school {
+        font-size: 30px;
+        position: absolute;
+        top: 70px;
+        left: 18px;
+    }
+    
+    .bio_box .major {
+        font-size: 22px;
+        position: absolute;
+        top: 110px;
+        left: 20px;
+    }
+    
+    .bio_box .bio {
+        font-size: 20px;
+        position: absolute;
+        top: 150px;
+        left: 20px;
+    }
 }
