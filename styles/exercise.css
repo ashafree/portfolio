@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    }
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden; 
+    background: #fdf2ea;
+    padding: 20px;
+    font-family: 'Permanent Marker', regular;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cover {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    }
+
+.back {
+    font-size: 40px;
+    color: black;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+}
+
+.title {
+    font-size: 45px;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.box {
+    position: fixed;
+    top: 25%;
+    right: 10%;
+    background: pink;
+    width: 70vw;
+    height: 600px;
+    overflow: scroll;
+}
+
+.box .description {
+    position: absolute;
+    left: 170px;
+    font-size: 30px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .project01_title {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    font-size: 30px;
+    max-width: 800px;
+}
+
+.box .project01_bio {
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-size: 30px;
+    max-width: 400px;
+}
+
+.box .arrow01 {
+    position: absolute;
+    top: 175px;
+    left: 365px;
+    font-size: 30px;
+    max-width: 400px;
+}
+
+.box .project01_pic {
+    position: absolute;
+    top: 170px;
+    right: 20px;
+}
+

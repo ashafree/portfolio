@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    }
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden; 
+    background: #fdf2ea;
+    padding: 20px;
+    font-family: 'Permanent Marker', regular;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cover {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    }
+
+.back {
+    font-size: 40px;
+    color: black;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+}
+
+.title {
+    font-size: 45px;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.box {
+    position: fixed;
+    top: 25%;
+    right: 10%;
+    background: none;
+    width: 70vw;
+    height: 600px;
+    overflow: scroll;
+}
+
+.box .description {
+    position: absolute;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .walk {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+
+.box .description2 {
+    position: absolute;
+    top: 820px;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .textile {
+    position: absolute;
+    top: 1290px;
+    left: 185px;
+}
+
+.box .description3 {
+    position: absolute;
+    top: 1850px;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .sketch_bio {
+    position: absolute;
+    top: 2130px;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .sketch {
+    position: absolute;
+    top: 2250px;
+    right: -50px;
+}
+
+.box .sketch {
+    position: absolute;
+    top: 2250px;
+    right: -50px;
+}
+
+.box .description4 {
+    position: absolute;
+    top: 3300px;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .final_bio {
+    position: absolute;
+    top: 3410px;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .link {
+    font-size: 18px;
+    position: absolute;
+    top: 3620px;
+    left: 430px;
+}
+
+.box .link:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
+}
+
+.box .final_pic {
+    position: absolute;
+    top: 3700px;
+    left: 180px;
+}
