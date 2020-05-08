@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    }
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden; 
+    background: #fdf2ea;
+    padding: 20px;
+    font-family: 'Permanent Marker', regular;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cover {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    }
+
+.back {
+    font-size: 40px;
+    color: black;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+}
+
+.title {
+    font-size: 45px;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.box {
+    position: fixed;
+    top: 25%;
+    right: 10%;
+    background: none;
+    width: 70vw;
+    height: 600px;
+    overflow: scroll;
+}
+
+.box .description {
+    position: absolute;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+/* .box .picture {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+} */
+
+.box .process_title {
+    font-size: 30px;
+    position: absolute;
+    top: 270px;
+    left: 450px;
+}
+
+.box .process_text {
+    font-size: 23px;
+    position: absolute;
+    top: 360px;
+    left: 170px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.box .pic01 {
+    position: absolute;
+    top: 700px;
+    left: 10px;
+}
+
+.box .pic02 {
+    position: absolute;
+    top: 700px;
+    right: 10px;
+}
+
+.box .pic03 {
+    position: absolute;
+    top: 1100px;
+    left: 10px;
+}
+
+.box .pic04 {
+    position: absolute;
+    top: 1100px;
+    right: 10px;
+}
+
+.box .link {
+    font-size: 30px;
+    position: absolute;
+    top: 1650px;
+    left: 460px;
+}
+
+.box .link:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
+}
+
+.box .final {
+    font-size: 30px;
+    position: absolute;
+    top: 1550px;
+    left: 500px;
+}
+
+.box .finalpic {
+    position: absolute;
+    top: 1700px;
+    left: 150px;
+}
+
