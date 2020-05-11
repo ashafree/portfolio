@@ -133,4 +133,94 @@ html {
     text-shadow: 4px 4px 7px #74ECFF;
   }
 
+  .box .dropbtn3 {
+    font-family: 'Permanent Marker', regular;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .box .dropdown3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .box .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .box .dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+  }
+  
+  .box .dropdown-content3 a:hover {background-color: #f1f1f1}
+  
+  .box .dropdown3:hover .dropdown-content3 {
+    display: block;
+  }
+  
+  .box .dropdown3:hover .dropbtn3 {
+    text-shadow: 4px 4px 7px #74ECFF;
+  }
+
+  .box .dropbtn4 {
+    font-family: 'Permanent Marker', regular;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .box .dropdown4 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .box .dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .box .dropdown-content4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+  }
+  
+  .box .dropdown-content4 a:hover {background-color: #f1f1f1}
+  
+  .box .dropdown4:hover .dropdown-content4 {
+    display: block;
+  }
+  
+  .box .dropdown4:hover .dropbtn4 {
+    text-shadow: 4px 4px 7px #74ECFF;
+  }
+
+
+
+ 
+
+
+
  

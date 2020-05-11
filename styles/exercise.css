@@ -41,7 +41,7 @@ a {
     position: fixed;
     top: 25%;
     right: 10%;
-    background: pink;
+    background: none;
     width: 70vw;
     height: 600px;
     overflow: scroll;
@@ -74,9 +74,13 @@ a {
 .box .arrow01 {
     position: absolute;
     top: 175px;
-    left: 365px;
+    left: 350px;
     font-size: 30px;
     max-width: 400px;
+}
+
+.box .arrow01:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
 }
 
 .box .project01_pic {
