@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    }
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden; 
+    background: #fdf2ea;
+    padding: 20px;
+    font-family: 'Permanent Marker', regular;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cover {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    }
+
+.back {
+    font-size: 40px;
+    color: black;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+}
+
+.title {
+    font-size: 45px;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.box {
+    position: fixed;
+    top: 25%;
+    right: 10%;
+    background: none;
+    width: 70vw;
+    height: 600px;
+    overflow: scroll;
+}
+
+.box .description {
+    position: absolute;
+    left: 127px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 900px;
+}
+
+/* .box .picture {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+} */
+
+.box .process_title {
+    font-size: 30px;
+    position: absolute;
+    top: 520px;
+    left: 450px;
+}
+
+.box .process_text {
+    font-size: 23px;
+    position: absolute;
+    top: 620px;
+    left: 160px;
+    max-width: 830px;
+    text-align: center;
+}
+
+.box .moodboard_title {
+    font-size: 20px;
+    position: absolute;
+    top: 1000px;
+    left: 460px;
+}
+
+.box .pic01 {
+    position: absolute;
+    top: 1100px;
+    left: 157px;
+}
+
+.box .prototype_title {
+    font-size: 20px;
+    position: absolute;
+    top: 1700px;
+    left: 460px;
+}
+
+.box .pic02 {
+    position: absolute;
+    top: 1800px;
+    left: 157px;
+}
+
+.box .final_title {
+    font-size: 20px;
+    position: absolute;
+    top: 2380px;
+    left: 500px;
+}
+
+.box .pic03 {
+    position: absolute;
+    top: 2490px;
+    left: 157px;
+}
+
