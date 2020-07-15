@@ -64,40 +64,13 @@ a {
     left: 200px;
 }
 
-.box .process_text {
-    font-size: 23px;
-    position: absolute;
-    top: 360px;
-    left: 170px;
-    max-width: 800px;
-    text-align: center;
-}
-
 .box .pic01 {
     position: absolute;
     top: 270px;
     left: 175px;
 }
 
-.box .pic02 {
-    position: absolute;
-    top: 700px;
-    right: 10px;
-}
-
-.box .pic03 {
-    position: absolute;
-    top: 1100px;
-    left: 10px;
-}
-
-.box .pic04 {
-    position: absolute;
-    top: 1100px;
-    right: 10px;
-}
-
-.box .link {
+/* .box .link {
     font-size: 30px;
     position: absolute;
     top: 1650px;
@@ -106,18 +79,6 @@ a {
 
 .box .link:hover {
     text-shadow: 4px 4px 7px #74ECFF;
-}
+} */
 
-.box .final {
-    font-size: 30px;
-    position: absolute;
-    top: 1550px;
-    left: 500px;
-}
-
-.box .finalpic {
-    position: absolute;
-    top: 1700px;
-    left: 150px;
-}
 
