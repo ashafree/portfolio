@@ -80,8 +80,8 @@ a {
 .box .link_des {
     font-size: 23px;
     position: absolute;
-    top: 640px;
-    left: 200px;
+    top: 650px;
+    left: 210px;
     max-width: 700px;
     text-align: center;
 }
@@ -89,7 +89,7 @@ a {
 .box .link {
     font-size: 30px;
     position: absolute;
-    top: 720px;
+    top: 730px;
     left: 405px;
 }
 
