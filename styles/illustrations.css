@@ -56,86 +56,56 @@ a {
     max-width: 800px;
 }
 
-.box .yakult {
+.box .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fdf2ea;
+    overflow: scroll;
+    transition: 0.5s;
+    padding-top: 100px;
+    text-align:center;
+  }
+  
+  .box .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .box .sidenav a:hover{
+    color: pink;
+  }
+  
+  .box .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .box .yakult:hover {color: pink;}
+
+  .box .soju:hover {color: pink;}
+
+  .box .fish:hover {color: pink;}
+
+  .box .icecream:hover {color: pink;}
+
+/* .box .yakult {
     font-size: 40px;
     position: absolute;
     top: 200px;
     left: 490px;
 }
-/* 
-.box .yakult {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    text-align:center;
-  }
-  
-  .box .yakult  a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  
-  }
-  
-  .box .yakult  a:hover{
-    color: #f1f1f1;
-  }
-  
-  .box .yakult .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  } */
 
-  .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    text-align:center;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  
-  }
-  
-  .sidenav a:hover{
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-
-/* 
 .box .yakult:hover {
     text-shadow: 4px 4px 7px #74ECFF;
 }
@@ -171,9 +141,8 @@ a {
 
 .box .icecream:hover {
     text-shadow: 4px 4px 7px #74ECFF;
-} */
+} 
 
-/* 
 .box .link {
     font-size: 30px;
     position: absolute;
@@ -183,7 +152,7 @@ a {
 
 .box .link:hover {
     text-shadow: 4px 4px 7px #74ECFF;
-} */
+}  */
 
 
 
