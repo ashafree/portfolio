@@ -62,12 +62,93 @@ a {
     top: 200px;
     left: 490px;
 }
+/* 
+.box .yakult {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .box .yakult  a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .box .yakult  a:hover{
+    color: #f1f1f1;
+  }
+  
+  .box .yakult .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  } */
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+/* 
+.box .yakult:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
+}
 
 .box .soju {
     font-size: 40px;
     position: absolute;
     top: 270px;
     left: 503px;
+}
+
+.box .soju:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
 }
 
 .box .fish {
@@ -77,12 +158,20 @@ a {
     left: 505px;
 }
 
+.box .fish:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
+}
+
 .box .icecream {
     font-size: 40px;
     position: absolute;
     top: 410px;
     left: 460px;
 }
+
+.box .icecream:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
+} */
 
 /* 
 .box .link {
