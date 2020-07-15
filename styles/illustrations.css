@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    }
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden; 
+    background: #fdf2ea;
+    padding: 20px;
+    font-family: 'Permanent Marker', regular;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cover {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    }
+
+.back {
+    font-size: 40px;
+    color: black;
+    position: fixed;
+    top: 45%;
+    left: 5%;
+}
+
+.title {
+    font-size: 45px;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.box {
+    position: fixed;
+    top: 25%;
+    right: 10%;
+    background: none;
+    width: 70vw;
+    height: 600px;
+    overflow: scroll;
+}
+
+.box .description {
+    position: absolute;
+    top: 20px;
+    left: 170px;
+    font-size: 22px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.box .yakult {
+    font-size: 40px;
+    position: absolute;
+    top: 200px;
+    left: 490px;
+}
+
+.box .soju {
+    font-size: 40px;
+    position: absolute;
+    top: 270px;
+    left: 503px;
+}
+
+.box .fish {
+    font-size: 40px;
+    position: absolute;
+    top: 340px;
+    left: 505px;
+}
+
+.box .icecream {
+    font-size: 40px;
+    position: absolute;
+    top: 410px;
+    left: 460px;
+}
+/* 
+.box .link {
+    font-size: 30px;
+    position: absolute;
+    top: 1650px;
+    left: 460px;
+}
+
+.box .link:hover {
+    text-shadow: 4px 4px 7px #74ECFF;
+} */
+
+
+
