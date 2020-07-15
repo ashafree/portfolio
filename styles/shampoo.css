@@ -67,7 +67,49 @@ a {
 .box .pic01 {
     position: absolute;
     top: 270px;
-    left: 175px;
+    left: 40px;
+}
+
+.box .pic02 {
+    position: absolute;
+    top: 270px;
+    right: 90px;
+}
+
+.box .pic03 {
+    position: absolute;
+    top: 800px;
+    left: 40px;
+}
+
+.box .pic04 {
+    position: absolute;
+    top: 800px;
+    right: 90px;
+}
+
+.box .pic05 {
+    position: absolute;
+    top: 1330px;
+    left: 40px;
+}
+
+.box .pic06 {
+    position: absolute;
+    top: 1330px;
+    right: 90px;
+}
+
+.box .pic07 {
+    position: absolute;
+    top: 1860px;
+    left: 40px;
+}
+
+.box .pic08 {
+    position: absolute;
+    top: 1860px;
+    right: 90px;
 }
 
 /* .box .link {
