@@ -47,25 +47,34 @@ a {
     overflow: scroll;
 }
 
-.box .description {
+.box .tbd {
+    font-size: 30px;
     position: absolute;
-    left: 120px;
+    top: 250px;
+    left: 320px;
+}
+
+/* .box .description {
+    position: absolute;
+    left: 170px;
     font-size: 22px;
     text-align: center;
-    max-width: 900px;
+    max-width: 800px;
 }
+
+
 
 .box .process_title {
     font-size: 30px;
     position: absolute;
-    top: 450px;
-    left: 440px;
+    top: 270px;
+    left: 450px;
 }
 
 .box .process_text {
     font-size: 23px;
     position: absolute;
-    top: 550px;
+    top: 360px;
     left: 170px;
     max-width: 800px;
     text-align: center;
@@ -73,24 +82,33 @@ a {
 
 .box .pic01 {
     position: absolute;
-    top: 960px;
-    left: 155px;
+    top: 700px;
+    left: 10px;
 }
 
-.box .link_des {
-    font-size: 23px;
+.box .pic02 {
     position: absolute;
-    top: 640px;
-    left: 200px;
-    max-width: 700px;
-    text-align: center;
+    top: 700px;
+    right: 10px;
+}
+
+.box .pic03 {
+    position: absolute;
+    top: 1100px;
+    left: 10px;
+}
+
+.box .pic04 {
+    position: absolute;
+    top: 1100px;
+    right: 10px;
 }
 
 .box .link {
     font-size: 30px;
     position: absolute;
-    top: 720px;
-    left: 405px;
+    top: 1650px;
+    left: 460px;
 }
 
 .box .link:hover {
@@ -100,7 +118,13 @@ a {
 .box .final {
     font-size: 30px;
     position: absolute;
-    top: 830px;
-    left: 478px;
+    top: 1550px;
+    left: 500px;
 }
+
+.box .finalpic {
+    position: absolute;
+    top: 1700px;
+    left: 150px;
+} */
 
