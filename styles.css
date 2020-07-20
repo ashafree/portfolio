@@ -2,15 +2,6 @@
     margin: 0;
     }
 
-html {
-    width: 100vw;
-    height: 100%;
-    overflow: hidden; 
-    background: #fdf2ea;
-    padding: 20px;
-    font-family: 'Permanent Marker', regular;
-    }
-
     @font-face {
         font-family: "PermanentMarker-Regular";
         src: url("./fonts/PermanentMarker-Regular.eot"); /* IE9 Compat Modes */
@@ -23,6 +14,15 @@ html {
         font-weight: normal;
         font-style: normal;
       }
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden; 
+    background: #fdf2ea;
+    padding: 20px;
+    font-family: 'Permanent Marker', regular;
+    }
 
 .ashafree {
     font-size: 150px;
