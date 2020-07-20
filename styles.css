@@ -11,6 +11,12 @@ html {
     font-family: 'Permanent Marker', regular;
     }
 
+    @font-face {
+        font-family: "Permanent Marker";
+        src: url("/path-to-your-font.woff2") format("woff2"),
+             url("/path-to-your-font.woff") format("woff");
+      }
+
 .ashafree {
     font-size: 150px;
     color: black;
