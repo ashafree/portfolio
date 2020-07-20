@@ -40,6 +40,7 @@ html {
 }
 
 .who {
+    font-family: 'PermanentMarker-Regular';
     font-size: 70px;
     transform: rotate(90deg);
     color: black;
@@ -49,6 +50,7 @@ html {
 }
 
 .work {
+    font-family: 'PermanentMarker-Regular';
     font-size: 70px;
     transform: rotate(270deg);
     color: black;
