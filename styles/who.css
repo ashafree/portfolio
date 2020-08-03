@@ -37,6 +37,7 @@ html {
 }
 
 .back {
+    font-family: 'PermanentMarker-Regular';
     font-size: 70px;
     color: black;
     position: fixed;
@@ -55,12 +56,14 @@ html {
 }
 
 .bio_box .name {
+    font-family: 'PermanentMarker-Regular';
     font-size: 30px;
     position: absolute;
     left: 20px;
 }
 
 .bio_box .school {
+    font-family: 'PermanentMarker-Regular';
     font-size: 35px;
     position: absolute;
     top: 80px;
@@ -68,6 +71,7 @@ html {
 }
 
 .bio_box .major {
+    font-family: 'PermanentMarker-Regular';
     font-size: 27px;
     position: absolute;
     top: 120px;
@@ -75,6 +79,7 @@ html {
 }
 
 .bio_box .bio {
+    font-family: 'PermanentMarker-Regular';
     font-size: 25px;
     position: absolute;
     top: 170px;
