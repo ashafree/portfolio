@@ -31,6 +31,7 @@ html {
     }
 
 .back {
+  font-family: 'PermanentMarker-Regular';
     font-size: 40px;
     color: black;
     position: fixed;
@@ -40,6 +41,7 @@ html {
 
 
 .title {
+  font-family: 'PermanentMarker-Regular';
     font-size: 45px;
     position: fixed;
     top: 5%;
@@ -63,7 +65,7 @@ html {
 } */
 
 .box .dropbtn {
-    font-family: 'Permanent Marker', regular;
+  font-family: 'PermanentMarker-Regular';
     background-color: transparent;
     color: black;
     padding: 10px;
@@ -87,6 +89,7 @@ html {
   }
   
   .box .dropdown-content a {
+    font-family: 'PermanentMarker-Regular';
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -105,7 +108,7 @@ html {
   }
 
   .box .dropbtn2 {
-    font-family: 'Permanent Marker', regular;
+    font-family: 'PermanentMarker-Regular';
     background-color: transparent;
     color: black;
     padding: 10px;
@@ -129,6 +132,7 @@ html {
   }
   
   .box .dropdown-content2 a {
+    font-family: 'PermanentMarker-Regular';
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -147,7 +151,7 @@ html {
   }
 
   .box .dropbtn3 {
-    font-family: 'Permanent Marker', regular;
+    font-family: 'PermanentMarker-Regular';
     background-color: transparent;
     color: black;
     padding: 10px;
@@ -171,6 +175,7 @@ html {
   }
   
   .box .dropdown-content3 a {
+    font-family: 'PermanentMarker-Regular';
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -189,7 +194,7 @@ html {
   }
 
   .box .dropbtn4 {
-    font-family: 'Permanent Marker', regular;
+    font-family: 'PermanentMarker-Regular';
     background-color: transparent;
     color: black;
     padding: 10px;
@@ -213,6 +218,7 @@ html {
   }
   
   .box .dropdown-content4 a {
+    font-family: 'PermanentMarker-Regular';
     color: black;
     padding: 12px 16px;
     text-decoration: none;
