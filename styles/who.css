@@ -4,13 +4,26 @@
     box-sizing: border-box;
     }
 
+    @font-face {
+        font-family: "PermanentMarker-Regular";
+        src: url("./PermanentMarker-Regular/fonts/PermanentMarker-Regular.eot"); /* IE9 Compat Modes */
+        src: url("./PermanentMarker-Regular//fonts/PermanentMarker-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+          url("./PermanentMarker-Regular//fonts/PermanentMarker-Regular.otf") format("opentype"), /* Open Type Font */
+          url("./PermanentMarker-Regular//fonts/PermanentMarker-Regular.svg") format("svg"), /* Legacy iOS */
+          url("./PermanentMarker-Regular//fonts/PermanentMarker-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+          url("./PermanentMarker-Regular//fonts/PermanentMarker-Regular.woff") format("woff"), /* Modern Browsers */
+          url("./PermanentMarker-Regular//fonts/PermanentMarker-Regular.woff2") format("woff2"); /* Modern Browsers */
+        font-weight: normal;
+        font-style: normal;
+      }
+
 html {
     width: 100vw;
     height: 100%;
     overflow: hidden; 
     background: #fdf2ea;
     padding: 20px;
-    font-family: 'PermanentMarker-Regular';
+    font-family: "PermanentMarker-Regular";
     }
 
 .background {
@@ -24,7 +37,7 @@ html {
 }
 
 .back {
-    font-family: 'PermanentMarker-Regular';
+    font-family: "PermanentMarker-Regular";
     font-size: 70px;
     color: black;
     position: fixed;
@@ -43,14 +56,14 @@ html {
 }
 
 .bio_box .name {
-    font-family: 'PermanentMarker-Regular';
+    font-family: "PermanentMarker-Regular";
     font-size: 30px;
     position: absolute;
     left: 20px;
 }
 
 .bio_box .school {
-    font-family: 'PermanentMarker-Regular';
+    font-family: "PermanentMarker-Regular";
     font-size: 35px;
     position: absolute;
     top: 80px;
@@ -58,7 +71,7 @@ html {
 }
 
 .bio_box .major {
-    font-family: 'PermanentMarker-Regular';
+    font-family: "PermanentMarker-Regular";
     font-size: 27px;
     position: absolute;
     top: 120px;
@@ -66,7 +79,7 @@ html {
 }
 
 .bio_box .bio {
-    font-family: 'PermanentMarker-Regular';
+    font-family: "PermanentMarker-Regular";
     font-size: 25px;
     position: absolute;
     top: 170px;
